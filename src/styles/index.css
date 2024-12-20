@@ -10,3 +10,66 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: rgb(187, 183, 186);
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color:rgb(116, 86, 106)
+}
+.container{
+   margin-top: 5%;
+   justify-self: center;
+}
+.form-control{
+border: none;
+height: 50px;
+border-radius: 0%;
+border-bottom: 1px solid #ddd;
+outline:none;
+}
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color:grey;
+    font-size: 18px;
+    visibility: hidden;
+    cursor: pointer;
+}
+.tarea-item:hover .delete-btn {
+    visibility: visible;
+}
+.delete-btn:hover {
+    color: grey;
+}
+.list-group-item{
+font-size: 18px;
+color: grey;
+border: none;
+height: auto;
+}
+
+#tareas{
+font-size:10px;
+color: grey;
+border: none;
+height: auto;
+box-shadow: 
+10px 10px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.list-group {
+border-radius: 0px;
+border-bottom: 1px solid #ddd;
+margin: 0%;
+padding:0%px;
+}
