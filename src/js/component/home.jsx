@@ -95,47 +95,6 @@ const Home = () => {
 	}
 
 
-	// const createUser = async () => {
-	// 	const requestOptions = {
-	// 	  method: "POST",
-	// 	  headers: {
-	// 		"content-type": "application/json"
-	// 	  },
-	// 	  body: JSON.stringify([])
-	// 	};
-	// 	try {
-	// 	  const response = await fetch("https://playground.4geeks.com/todo/users/Jey", requestOptions)
-	// 	  if(!response.ok) {
-	// 		throw new Error("error de solicitud")
-	// 	  }
-	// 	  const data = await response.json ();
-	// 	  console.log("usuario creado", data)
-	// 	}
-	// 	  catch (err){
-	// 	  console.error("error al obtener las tareas")
-	// 	}
-	// };
-	  
-	// const getTask = async () => {
-	// 	const requestOptions = {
-	// 	  method: "GET",
-	// 	  redirect: "follow"
-	// 	};
-	// 	try {
-	// 	  const response = await fetch("https://playground.4geeks.com/todo/users/Jey", requestOptions)
-	// 	  if(!response.ok) {
-	// 		createUser()
-	// 		throw new Error("errores de solicitud")
-	// 	  }
-	// 	  const data = await response.json ();
-	// 	  setListElement(data.todos)
-	// 	}
-	// 	catch (err){
-	// 	  console.error("error al obtener las tareas")
-	// 	}
-	// };
-
-
   useEffect(()=>{
     getTodoLista()
   },[])
